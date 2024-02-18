@@ -23,10 +23,12 @@ export default {
       colors: {
         "BrandOne": "#E81A46",
         "BrandTwo": "#F5A623",
+        "AquaWhite": "#FEF2DE",
         "StatGray": "#212529",
         "OxfordBlue": "#1D293F",
         "CadetGray": "#99A3AD",
-        "Slate Gray": "#546179",
+        "SlateGray": "#546179",
+        "GainsBoro": "#DCE5EB",
       },
       backgroundImage: {
         "BannerOne": "url('../src/assets/BG-Image.png')",
