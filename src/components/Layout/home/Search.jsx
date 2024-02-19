@@ -12,7 +12,7 @@ const Search = ({ className }) => {
       >
         <Flex className="justify-between items-center">
           <div className="">
-            <label className="text-[28px] text-StatGray font-bold relative ">Location <span className="before:absolute before:w-full before:h-2 before:bottom-0 before:left-0 before:bg-BrandTwo"></span></label>
+            <label className="text-[28px] text-StatGray font-bold relative z-10 ">Location <span className="before:absolute before:w-full before:h-2 before:bottom-[6px] before:left-0 before:-z-[1] before:bg-BrandTwo"></span></label>
             <Flex className="gap-4 items-center mt-1">
               <input
                 type="text"
@@ -24,7 +24,7 @@ const Search = ({ className }) => {
           </div>
 
           <div className="">
-            <label className="text-[28px] text-StatGray font-bold relative">Activity <span className="before:absolute before:w-full before:h-2 before:bottom-0 before:left-0 before:bg-BrandTwo"></span></label>
+            <label className="text-[28px] text-StatGray font-bold relative z-10">Activity <span className="before:absolute before:w-full before:h-2 before:bottom-[6px] before:-z-[1] before:left-0 before:bg-BrandTwo"></span></label>
             <Flex className="gap-4 items-center">
               <input
                 type="text"
@@ -36,7 +36,7 @@ const Search = ({ className }) => {
           </div>
 
           <div className="">
-            <label className="text-[28px] text-StatGray font-bold relative">Date <span className="before:absolute before:w-full before:h-2 before:bottom-0 before:left-0 before:bg-BrandTwo"></span></label>
+            <label className="text-[28px] text-StatGray font-bold relative z-10">Date <span className="before:absolute before:w-full before:h-2 before:bottom-[6px] before:-z-[1] before:left-0 before:bg-BrandTwo"></span></label>
             <Flex className="gap-4 items-center">
               <input
                 type="text"
