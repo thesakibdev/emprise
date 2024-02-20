@@ -29,6 +29,7 @@ export default {
         "CadetGray": "#99A3AD",
         "SlateGray": "#546179",
         "GainsBoro": "#DCE5EB",
+        "hoverEffect": "rgba(254, 242, 222, 0.2)",
       },
       backgroundImage: {
         "BannerOne": "url('../src/assets/BG-Image.png')",
