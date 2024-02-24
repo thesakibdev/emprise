@@ -7,6 +7,7 @@ import TourGuides from "../components/Layout/home/TourGuides";
 import CatBanner from "../components/Layout/home/CatBanner";
 import Subscribe from "../components/Layout/home/Subscribe";
 import Sponsor from "../components/Layout/Sponsor";
+import Contact from "../components/Layout/home/Contact";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <CatBanner/>
       <Subscribe/>
       <Sponsor/>
+      <Contact/>
     </section>
   );
 };

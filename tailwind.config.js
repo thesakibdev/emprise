@@ -29,11 +29,15 @@ export default {
         "CadetGray": "#99A3AD",
         "SlateGray": "#546179",
         "GainsBoro": "#DCE5EB",
+        "Celesta": "#BCF0EC",
         "hoverEffect": "rgba(254, 242, 222, 0.2)",
       },
       backgroundImage: {
         "BannerOne": "url('../src/assets/BG-Image.png')",
         "BannerTwo": "url('../src/assets/Hero.png')",
+      },
+      boxShadow: {
+        'InputShadow': '0px 6px 18px 0px rgba(0, 0, 0, 0.5)',
       }
     },
   },
