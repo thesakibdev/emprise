@@ -7,7 +7,7 @@ import { FaHeadphonesAlt, FaRegQuestionCircle  } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="px-32">
+    <section className="px-32 md:pb-36 pb-8">
       <div className="text-center">
         <Container>
           {/* heading */}

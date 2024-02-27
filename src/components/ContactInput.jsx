@@ -7,10 +7,10 @@ const ContactInput = ({className}) => {
         <FaRegEnvelope className="text-CadetGray" />
         <input
           type="email"
-          className="w-[65%] focus:outline-none border-none placeholder:text-CadetGray placeholder:text-lg"
+          className="w-[65%] focus:outline-none border-none placeholder:text-CadetGray md:placeholder:text-lg placeholder:text-xs"
           placeholder="Enter your email"
         />
-        <button type="submit" className="bg-BrandOne py-6 px-8 text-white text-lg">Send Now!</button>
+        <button type="submit" className="bg-BrandOne md:py-6 py-1 px-2 md:px-8 text-white md:text-lg text-[10px]">Send Now!</button>
       </Flex>
     </div>
   );

@@ -12,7 +12,7 @@ import Contact from "../components/Layout/home/Contact";
 const Home = () => {
   return (
     <section className="">
-      {/* <Banner/>
+      <Banner/>
       <SelectCate/>
       <Trending/>
       <Destination/>
@@ -21,7 +21,7 @@ const Home = () => {
       <CatBanner/>
       <Subscribe/>
       <Sponsor/>
-      <Contact/> */}
+      <Contact/>
     </section>
   );
 };
