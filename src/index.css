@@ -5,3 +5,20 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
+#check-box-1:checked{
+    @apply border-BrandOne;
+}
+#check-box-1:checked ~ .check-1 .check-2{
+    @apply text-opacity-100;
+    animation: check-anime 0.5s 1;
+}
+
+@keyframes check-anime {
+    0%, 100%{
+        @apply transform scale-100;
+    }
+    50%{
+        @apply transform scale-150 text-opacity-0;
+    }   
+}
